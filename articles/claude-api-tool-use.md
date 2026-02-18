@@ -4,6 +4,7 @@ emoji: "🐢"
 type: "tech"
 topics: ["claude", "anthropic", "ai", "llm"]
 published: true
+price: 200
 ---
 わさびです。
 
@@ -191,6 +192,12 @@ response = client.messages.create(
 
 `is_error: True`を設定すると、Claudeはエラーを認識して「天気情報を取得できませんでした」のように適切に対応する。
 
+
+:::message
+ここから先は有料記事です。完全版のプロンプト・テンプレート・コード例を収録しています。
+:::
+
+===
 ## 実践的なユースケース
 
 Tool Useが本領を発揮する場面:
